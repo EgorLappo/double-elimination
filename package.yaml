@@ -23,6 +23,7 @@ dependencies:
 - text 
 - containers
 - array
+- random
 - mtl
 - fgl
 - graphviz
