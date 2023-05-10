@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "double-elimination:lib"
+
+    - path: "./app/Main.hs"
+      component: "double-elimination:exe:double-elimination-exe"
+
+    - path: "./app/Paths_double_elimination.hs"
+      component: "double-elimination:exe:double-elimination-exe"
+
+    - path: "./test"
+      component: "double-elimination:test:double-elimination-test"
